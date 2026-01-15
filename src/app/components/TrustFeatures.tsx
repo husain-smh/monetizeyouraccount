@@ -77,7 +77,7 @@ function BanknoteIcon(props: React.SVGProps<SVGSVGElement>) {
 
 function ApprovalVisual() {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7">
+    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7 w-full">
       <div className="absolute inset-0 bg-linear-to-b from-zinc-900/20 to-transparent" />
       <div className="relative space-y-3">
         {/* Card 1: Approved */}
@@ -118,7 +118,7 @@ function ApprovalVisual() {
 
 function PayoutVisual() {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7">
+    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7 w-full">
       <div className="absolute inset-0 bg-linear-to-tr from-amber-400/5 via-transparent to-transparent" />
       
       <div className="relative flex flex-col gap-4">
@@ -153,7 +153,7 @@ function PayoutVisual() {
 
 function TweetVisual() {
   return (
-    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7">
+    <div className="relative overflow-hidden rounded-2xl border border-zinc-800 bg-zinc-950/40 p-5 shadow-[0_0_0_1px_rgba(255,255,255,0.03)] sm:rounded-3xl sm:p-7 w-full">
       <div className="absolute inset-0 bg-linear-to-bl from-blue-500/5 via-transparent to-transparent" />
       
       <div className="relative space-y-4">
